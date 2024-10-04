@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "g++ -o sample sample.cpp; ./sample",
 
 	// Configure tool-specific properties.
 	"customizations": {
